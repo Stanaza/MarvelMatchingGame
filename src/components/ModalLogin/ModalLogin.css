@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Anton';
+    src: local('Anton'), url(../../assets/fonts/Anton-Regular.ttf) format('truetype');
+}
+
+.modal-login {
+    margin-top: 0;
+    color: rgb(238, 241, 238);
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 14px rgb(62, 4, 4);
+}
+
+.login-content {
+    padding-bottom: 40px;
+    background-color: #ac0204;
+}
+
+.login-dialog {
+    min-width: 40vw;
+}
+
+.login-body {
+    text-align: center;
+    background-image: none;
+    height: 100%;
+    font-family: 'Anton';
+    padding-bottom: 10px;
+}
+
+.login-body h4 {
+    margin-top: 3vh;
+    color: rgb(52, 231, 52);
+}
+
+.login-body .btn-danger {
+    margin-top: 2.5vh;
+    width: 9vw;
+}
+
+.login-body p {
+    margin: 30px;
+    color: rgb(52, 231, 52);
+    font-size: 16px;
+}
+
+.login-footer {
+    margin: 0 auto;
+}
+
+.login-input {
+    margin: auto;
+    max-width: 30vw;
+}
+
+.login-logo {
+    max-width: 15vw;
+}
+
+.login-input__item {
+    margin: 0px 10px;
+}
+

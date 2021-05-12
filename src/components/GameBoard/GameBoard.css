@@ -1,0 +1,12 @@
+.board {
+    width: 100%;
+    max-width: 95vw;
+    margin-top: 2vh;
+    align-self: center;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    border-radius: 10px;
+}

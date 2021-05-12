@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Marvel';
+  src: local('Marvel'), url(./assets/fonts/marvel.otf) format('truetype');
+}
+
+* {
+  cursor: url('./assets/images/hulk-cursor.png'), default;
+}
+body {
+  background: linear-gradient(rgba(246, 246, 246, 0.3), rgba(246, 246, 246, 0.3)), url("assets/images/bg-marvel.jpg") center no-repeat ;
+  background-size: cover;
+  height: 100vh;
+}
+
+.game-container {
+  font-family: 'Marvel';
+  background: linear-gradient(rgba(246, 246, 246, 0.3), rgba(246, 246, 246, 0.3)), url("assets/images/bg-marvel.jpg") center no-repeat ;
+  background-size: cover;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  height: 90vh;
+}
+
+
+
+

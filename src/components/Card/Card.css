@@ -1,0 +1,40 @@
+.card, .card-inner, .card-front, .card-back, .card-fg {
+    width: 8vw;
+    height: 20vh;
+    border-radius: 5px;
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+    margin: 0 10px 10px 10px;
+}
+
+.card-front {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-inner {
+    position: relative;
+    transition: transform .7s;
+    transform-style: preserve-3d;
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.card-back {
+    transform: rotateY(180deg);
+    transition: 0.5s;
+}
+
+.card-back img {
+    width: 8vw;
+    height: 20vh;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
